@@ -23,6 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Bayu Aji Nugroho</title>
+        <link rel="icon" href="fotokedua.jpg" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased dark:bg-darkMode`}
