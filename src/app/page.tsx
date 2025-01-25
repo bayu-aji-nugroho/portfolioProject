@@ -8,12 +8,13 @@ import Footer from "./component/footer";
 
 
 export default function Home() {
-  const [bahasa, setBahasa] = useState(true);
+  const [status,setstatus] = useState(true)
+  const dark = (status:boolean) =>setstatus(status);
   return (
     <>
-      <Nav />
+      <Nav isDark={dark}/>
       <Body />
-      <Footer />
+      <Footer isDark={status} />
     </>
   )
     

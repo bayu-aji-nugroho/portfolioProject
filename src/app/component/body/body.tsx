@@ -3,15 +3,15 @@ import MainComponent from "./main";
 import Deskripsi from "./deskripsi";
 import Experience from "./experience";
 import Skill from "./skill";
+import Project from "./project";
+import Programming from "./skills"
+
 
 
 
 
 
 export default function Body(){
-    
-
-
 
 
     return (
@@ -20,6 +20,9 @@ export default function Body(){
             <Deskripsi />
             <Experience />
             <Skill />
+            <Project/>
+            <Programming />
+            
         </div>
     )
 

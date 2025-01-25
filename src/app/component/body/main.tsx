@@ -49,7 +49,7 @@ interface TypingEffectProps {
 
 const MainComponent = () =>{
     return (
-        <div className="dark:text-white md:flex py-10 md:mx-10 justify-center items-center my-10 transform duration-500 mx-1 md:rounded-full rounded-xl shadow-xl dark:shadow-blue-950 shadow-sky-700 animate-fadein">
+        <div id="main" className="dark:text-white md:flex py-10 md:mx-10 justify-center items-center my-10 transform duration-500 mx-1 md:rounded-full rounded-xl shadow-xl dark:shadow-blue-950 shadow-sky-700 animate-fadein">
             <img src="fotoKedua.jpg"
             className="transform duration-500 h-28 w-28 md:h-44 md:w-44 md:mx-11 hover:shadow-2xl hover:scale-150 shadow-xl  shadow-black dark:shadow-white rounded-full m-2 mx-auto" />
             <div className=" text-xl md:text-2xl my-4 mt-6 mx-4">
